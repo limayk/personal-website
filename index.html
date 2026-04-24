@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalyani Limaye | Portfolio</title>
+    <meta
+      name="description"
+      content="A simple personal portfolio website with projects and contact links."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Manrope:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero section-box">
+        <div class="hero-copy">
+          <h2>Kalyani Limaye</h2>
+          <p class="about-inline">
+          Hi, I'm Kalyani! I'm a master's student studying computational math at Stanford. 
+          I did my undergrad at UT Austin where I studied applied math, economics, and CS. 
+          I'm broadly interested in the behavioral aspect of economics and decision-making under uncertainty, and how those ideas carry over to agents and AI systems. 
+          I've done a graduate research assistantship in the Biomedical Data Science department at Stanford, working on clinical reinforcement learning. 
+          I previously worked as a quant at Goldman Sachs, modeling capital and counterparty stress exposure.
+          </p>
+        </div>
+
+        <div class="photo-card">
+          <img
+            class="profile-photo"
+            src="./profile.png"
+            alt="Portrait of Kalyani Limaye"
+          />
+        </div>
+      </header>
+
+      <main class="content">
+        <section id="projects" class="section-box">
+          <p class="eyebrow">Projects</p>
+          <div class="project-list">
+            <article class="project-item project-item-lilac">
+              <h3>
+                <a
+                  href="./CS229__Project_Final_Report.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Predicting Hospital Readmission from Clinical Discharge Notes</a
+                >
+              </h3>
+              <p>
+                Used free-text from discharge summaries to predict hospital readmission. Compared performance accross three embedding methods: 
+                pre-trained ClinicalBERT, fine-tuned ClinicalBERT, and OpenAI 4o-mini summaries.
+              </p>
+            </article>
+
+            <article class="project-item project-item-chartreuse">
+              <h3>
+                <a                  
+                  href="./CS_224R_Final_Report.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Cross-Institution RL Benchmarking for Non-Synthetic Clinical
+                  Settings</a
+                >
+              </h3>
+              <p>
+                Benchmarked offline RL methods for clinical, comparing behavior cloning, FQI, and
+                CQL for safety and clinical alignment.
+              </p>
+            </article>
+
+            <article class="project-item project-item-brown">
+              <h3>
+                <a
+                  href="https://medium.com/stanford-cs224w/dont-thread-on-me-forecasting-online-community-health-with-graph-neural-networks-9cfb4716c4ce"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Don't Thread on Me</a
+                >
+              </h3>
+              <p>
+              Built temporal GNN on Stack Exchange data to forecast community health
+              </p>
+            </article>
+
+            <article class="project-item project-item-slate">
+              <h3>Causal Visual Attribution of Long-Tail Failures in End-to-End Autonomous Driving</h3>
+              <p>stay tuned...</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="Research" class="section-box">
+          <p class="eyebrow">Publications</p>
+            <article class="project-item project-item-sage">
+              <h3>
+                <a
+                  href=https://openreview.net/forum?id=GfKZEe42wS&noteId=FJcGQpOloc
+                  target="_blank"
+                  rel="noreferrer"
+                  >APRIL: Annotations for Policy Evaluation with Reliable Inference from LLMs</a
+                >              
+              </h3>              
+              <p>
+              Mandyam, A., Limaye, K., Engelhardt, B. E., Alsentzer, E. (2025). ML4H Symposium.
+              </p>
+            </article>
+        </section>
+
+        <section id="contact" class="section-box">
+          <p class="eyebrow">reach out</p>
+          <div class="link-list">
+            <a href="mailto::limayk@stanford.edu">limayk@stanford.edu</a>
+            <a href="https://github.com/limayk" target="_blank" rel="noreferrer"
+              >GitHub</a
+            >
+            <a href="https://www.linkedin.com/in/kalyani-limaye-57a2b3136/" target="_blank" rel="noreferrer"
+              >LinkedIn</a
+            >
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
